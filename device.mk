@@ -1,7 +1,7 @@
 PRODUCT_PROPERTY_OVERRIDES := \
-    ro.ota.romname=Validus-j5nlte \
+    ro.ota.romname=Bootleg-j5nlte \
     ro.ota.version=$(shell date +%F%H | sed s@-@@g) \
-    ro.ota.manifest=https://android.jenslody.de/j5nlte/j5nlte.xml
+    ro.ota.manifest=https://android.jenslody.de/BootleggersROM/j5nlte/j5nlte.xml
 
 #Inherit from vendor
 $(call inherit-product-if-exists, vendor/samsung/j5nlte/j5nlte-vendor.mk)
