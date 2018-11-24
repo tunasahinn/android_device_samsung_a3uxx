@@ -1,6 +1,6 @@
 
 # Inherit from common
-$(call inherit-product, device/samsung/j5-common/bootleg.mk)
+$(call inherit-product, device/samsung/j5-common/bootleg_j5-common.mk)
 
 $(call inherit-product, device/samsung/j5nlte/device.mk)
 
