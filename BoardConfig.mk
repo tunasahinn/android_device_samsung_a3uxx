@@ -7,7 +7,7 @@ LOCAL_PATH := device/samsung/j5nlte
 TARGET_OTA_ASSERT_DEVICE := j5nlte,j5nltexx
 
 # Kernel
-TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_j5nlte_eur_defconfig
+TARGET_KERNEL_CONFIG := j5nlte_defconfig
 
 # Partition sizes
 BOARD_SYSTEMIMAGE_PARTITION_SIZE    := 2181038080
