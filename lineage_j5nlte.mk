@@ -8,3 +8,4 @@ $(call inherit-product, device/samsung/j5nlte/device.mk)
 PRODUCT_DEVICE := j5nlte
 PRODUCT_NAME := lineage_j5nlte
 PRODUCT_MODEL := SM-J500FN
+PRODUCT_RELEASE_NAME := Samsung Galaxy J5
