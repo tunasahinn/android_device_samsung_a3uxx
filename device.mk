@@ -1,8 +1,8 @@
-#Inherit from vendor
-$(call inherit-product-if-exists, vendor/samsung/j5nlte/j5nlte-vendor.mk)
+# Inherit from common variant vendor
+$(call inherit-product, vendor/samsung/j5-common/j5-common-vendor.mk)
 
-# Inherit J5 2015 device
-$(call inherit-product, device/samsung/msm8916-common/device-j5.mk)
+# Inherit from vendor
+$(call inherit-product-if-exists, vendor/samsung/j5nlte/j5nlte-vendor.mk)
 
 # Inherit NFC support
 $(call inherit-product, device/samsung/msm8916-common/nfc.mk)
