@@ -1,8 +1,8 @@
 LOCAL_PATH := device/samsung/j5nlte
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/revengeos_j5nlte.mk \
+	$(LOCAL_DIR)/lineage_j5nlte.mk \
 	
 COMMON_LUNCH_CHOICES := \
-    revengeos_j5nlte-eng \
-    revengeos_j5nlte-userdebug \
-    revengeos_j5nlte-user
+    lineage_j5nlte-eng \
+    lineage_j5nlte-userdebug \
+    lineage_j5nlte-user
