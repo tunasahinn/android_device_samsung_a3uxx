@@ -1,6 +1,6 @@
-# android_device_samsung_j5nlte
+# android_device_samsung_a3ulte
 
-## Device tree for Samsung Galaxy J5N LTE
+## Device tree for Samsung Galaxy A3 2015 (A300FU)
 
 Basic   | Spec Sheet
 -------:|:-------------------------

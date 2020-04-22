@@ -1,17 +1,17 @@
 # Inherit from common
 include device/samsung/msm8916-common/BoardConfigCommon.mk
 
-LOCAL_PATH := device/samsung/j5nlte
+LOCAL_PATH := device/samsung/a3ulte
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := j5nlte,j5nltexx
+TARGET_OTA_ASSERT_DEVICE := a3ulte
 
 # Kernel
-TARGET_KERNEL_CONFIG := j5nlte_defconfig
+TARGET_KERNEL_CONFIG := a3u_defconfig
 
 # Partition sizes
-BOARD_SYSTEMIMAGE_PARTITION_SIZE    := 2181038080
-BOARD_USERDATAIMAGE_PARTITION_SIZE  := 5016350720
+BOARD_SYSTEMIMAGE_PARTITION_SIZE    := 1568669696
+BOARD_USERDATAIMAGE_PARTITION_SIZE  := 10537124096
 
 # RIL
 BOARD_GLOBAL_CFLAGS += -DRIL_FIX_SMS_NOT_SENT_ERR
